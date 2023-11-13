@@ -59,6 +59,33 @@
   <audio data-key="76" src="sounds/tink.wav"></audio>
 
 <script>
+  function playSound(e) {
+    // check if there is an element with data-key defined above
+    const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+    // this will select the first element with "key" 
+    // class whose data-key is equal to e.keyCode 
+    const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
+    if(!audio) return;
+    
+    // we need to make sure that when the key is clicked in succession, 
+    // we want to rewind the audio to the start
+    audio.currentTime = 0
+    audio.play();
+    key.classList.add('playing');
+  }
+  
+  function removeTransition(e) {
+    if(e.propertyName != "transform") return;
+    this.classList.remove('playing')
+  }
+
+  const keys = document.querySelectorAll('.key');
+  // you must iterate through a list and then add eventlistner to each element
+  keys.forEach(key => key.addEventListener("transitionend", removeTransition))
+
+  window.addEventListener('keydown', playSound)
+
+
 
 </script>
 
