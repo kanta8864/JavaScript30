@@ -14,3 +14,13 @@
  - An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.
  - An element with position: sticky; is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
  - If position: absolute; or position: fixed; - the left property sets the left edge of an element to a unit to the left of the left edge of its nearest positioned ancestor. If position: relative; - the left property sets the left edge of an element to a unit to the left/right of its normal position. If position: sticky; - the left property behaves like its position is relative when the element is inside the viewport, and like its position is fixed when it is outside. If position: static; - the left property has no effect.
+
+ ## Day 3: Playigng with CSS Variables and JS
+ - The :root selector matches the document's root element.
+ - Custom properties are entities defined by CSS authors that represent specific values to be reused throughout a document. Custom property can be declared with a prefix of two dashes. 
+ - The var() function is used to insert the value of a CSS variable.
+ - dataset is an object that contains all the data attributes in the element. 
+ - data-* attributes are custom attributes that can be added to HTML elements to store custom data.
+ - setProperty(propertyName, value)
+ - Document.documentElement returns the element that is the root element of the document (HTML element)
+ - how to set CSS custom property. (document.documentElement.style.setProperty("--name", "value"))
