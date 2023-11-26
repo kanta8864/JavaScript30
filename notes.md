@@ -24,3 +24,10 @@
  - setProperty(propertyName, value)
  - Document.documentElement returns the element that is the root element of the document (HTML element)
  - how to set CSS custom property. (document.documentElement.style.setProperty("--name", "value"))
+
+
+ ## Day 4: Array Cardio Day 1
+ - array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+ - for sort(), if the returned value is 1, it means to place a after b [b,a]. If it is negative then b after a [a,b]. If 0, keep the original order. So -1, then keep the normal order of a before b. If the result is negative, a is sorted before b.
+- you can run querySelector() in any existing DOM element. 
+- The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected
