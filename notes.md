@@ -31,3 +31,8 @@
  - for sort(), if the returned value is 1, it means to place a after b [b,a]. If it is negative then b after a [a,b]. If 0, keep the original order. So -1, then keep the normal order of a before b. If the result is negative, a is sorted before b.
 - you can run querySelector() in any existing DOM element. 
 - The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected
+
+## Day 5: Flex Panels Image Gallery
+- flex:1 makes sure that the elements will grow equally (extra space is distributed equally)
+- element can both be flex items and flex container
+- The :first-child pseudo class selector is used to select the specified selector, only if it is the first child of its parent. ul > :first-child means selecting the first child of ul element.  (https://www.w3schools.com/cssref/sel_firstchild.php)
