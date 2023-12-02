@@ -36,3 +36,10 @@
 - flex:1 makes sure that the elements will grow equally (extra space is distributed equally)
 - element can both be flex items and flex container
 - The :first-child pseudo class selector is used to select the specified selector, only if it is the first child of its parent. ul > :first-child means selecting the first child of ul element.  (https://www.w3schools.com/cssref/sel_firstchild.php)
+
+## Day 6:　Ajax Type Ahead
+- fetch() returns a promise. We need to call .then() against it. 
+- fetch() gives you back raw data. (response object) blob.json() will return another promise. 
+- (BLOB stands for Binary Large Object. It is defined as the chunk of binary data being stored as a single entity in a database system.)
+- A Promise is an object representing the eventual completion or failure of an asynchronous operation. It is used to find out if the asynchronous operation succeeded or not. 
+- spread syntax allows you to expand array into each element. (for example to put into an argument of a function which requires one element as one argument)  
