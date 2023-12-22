@@ -43,3 +43,13 @@
 - (BLOB stands for Binary Large Object. It is defined as the chunk of binary data being stored as a single entity in a database system.)
 - A Promise is an object representing the eventual completion or failure of an asynchronous operation. It is used to find out if the asynchronous operation succeeded or not. 
 - spread syntax allows you to expand array into each element. (for example to put into an argument of a function which requires one element as one argument)  
+
+## Day 7: Array Cardio Day 2 
+- some() takes a function which will be run against every element in the array. If any of the element returns true, then some() will give us true. 
+- all() runs a function against every element and only returns true when every element returns true. 
+- find() returns the first element that matches the condition and findIndex() takes a function and returns the index of the first element that gives true
+
+## Day 8: Fun with HTML5 Canvas
+- you do not draw on top of Canvas, but you draw on something called context which can be 2d or 3d. 
+- window.innerWidth and window.winnerHeight returns the width and height of a window's content area respectively. 
+- color can be specified with HSL color values (Hue, Saturation, Lightness). Hue is a degree on the color wheel from 0 to 360 where 0 is red, 120 is green, and 240 is blue. For saturation, 0% is a shade of gray and 100% is full color. Lightness 0% is black and 100% is white.
