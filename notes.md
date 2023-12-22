@@ -53,3 +53,11 @@
 - you do not draw on top of Canvas, but you draw on something called context which can be 2d or 3d. 
 - window.innerWidth and window.winnerHeight returns the width and height of a window's content area respectively. 
 - color can be specified with HSL color values (Hue, Saturation, Lightness). Hue is a degree on the color wheel from 0 to 360 where 0 is red, 120 is green, and 240 is blue. For saturation, 0% is a shade of gray and 100% is full color. Lightness 0% is black and 100% is white.
+
+## Day 9: 14 Must Know Dev Tool Tricks
+- String substitution can be perfomed by adding %s. %d or %i for Number, %f for floatigng points, %o for Object and %j for JSON. 
+- %c is a format specifier provided by modern browsers to style the console.
+
+
+## Day 10; Hold Shift to Check Multiple Checkboxes 
+- 
